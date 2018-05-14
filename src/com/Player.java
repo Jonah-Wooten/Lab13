@@ -12,7 +12,7 @@ public abstract class Player {
 	private String name;
 	private int roshambo;
 
-	public abstract int generateRoshambo();
+	public abstract Roshambo generateRoshambo();
 
 	public String getName() {
 		return name;
